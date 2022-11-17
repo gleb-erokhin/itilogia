@@ -129,7 +129,7 @@ body {
 .car-item {
     max-width: 384px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .car-item-image img {
@@ -153,8 +153,26 @@ body {
 .car-item-point {
     width: 110px;
     height: 92px;
+    margin: 7.5px;
 }
 
+.car-item-point img {
+    margin-bottom: 11px;
+}
+
+.car-item-action {
+    margin-top: 13px;
+}
+
+.car-item-action .bottom {
+    width: 100%;
+    padding: 15px;
+    height: 54px;
+}
+
+.car-item-point > div:nth-child(2) {
+    font-weight: bold;
+}
 
 
 
